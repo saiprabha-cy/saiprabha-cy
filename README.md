@@ -1,541 +1,258 @@
-<!-- =========================================================
-     SAI PRABHA C Y — GITHUB PROFILE README
-     Repository: github.com/saiprabha-cy/saiprabha-cy
-     ========================================================= -->
+# SaiPrabha C Y | Aerospace Electronics • Embedded Systems • Space Communications
 
 <div align="center">
 
-# SAI PRABHA C Y
+<img src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:07111F,35:102A43,70:087E8B,100:00C2D1&text=SAIPRABHA%20C%20Y&fontSize=43&fontColor=FFFFFF&fontAlignY=38&desc=Aerospace%20Electronics%20%7C%20Embedded%20Systems%20%7C%20Space%20Communications&descSize=14&descAlignY=59&animation=fadeIn" width="100%" alt="Animated aerospace-themed profile banner"/>
 
-### Embedded Systems · Firmware · Avionics · Aerospace
-
-**Building embedded and aerospace systems from design through validation.**
-
-<br>
-
-<a href="https://saiprabha-cy.github.io">
-  <img src="https://img.shields.io/badge/🌐_Portfolio-saiprabha--cy.github.io-111827?style=for-the-badge" alt="Portfolio">
+<a href="https://saiprabha-cy.github.io/">
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=17&duration=3000&pause=900&color=00C2D1&center=true&vCenter=true&width=800&lines=Engineering+systems+for+flight%2C+space+and+reliability;From+circuits+and+firmware+to+telemetry+and+simulation;Hardware+%2B+Embedded+Software+%2B+Communications;Building+and+validating+realistic+aerospace+systems" alt="Animated introduction"/>
 </a>
-<a href="https://www.linkedin.com/in/saiprabha-c-y">
-  <img src="https://img.shields.io/badge/LinkedIn-Profile-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
-</a>
-<a href="https://github.com/saiprabha-cy">
-  <img src="https://img.shields.io/badge/GitHub-Projects-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub">
-</a>
+
+<br/>
+
+[![Portfolio](https://img.shields.io/badge/EXPLORE-Portfolio-00B8C4?style=for-the-badge&logo=githubpages&logoColor=white)](https://saiprabha-cy.github.io/)
+[![GitHub](https://img.shields.io/badge/GitHub-Projects-161B22?style=for-the-badge&logo=github)](https://github.com/saiprabha-cy)
+[![Research](https://img.shields.io/badge/Research-Publications-173B57?style=for-the-badge&logo=googlescholar&logoColor=white)](https://doi.org/10.36227/techrxiv.176834562.26769030/v1)
 
 </div>
 
 ---
 
+## `01` — Mission Brief
+
+I'm an **Electronics and Communication Engineering graduate** interested in the engineering behind reliable aerospace and space systems.
+
+My work brings together **embedded firmware, electronic hardware, communication systems, telemetry, control-system simulation, and engineering verification**. I enjoy understanding the complete signal and control path—from sensors and interfaces to packet transmission, fault handling, and system-level validation.
+
+```text
+MISSION      Build reliable electronics and embedded systems for aerospace applications
+APPROACH     Theory → Design → Simulation → Implementation → Verification
+INTERESTS    Flight electronics · Space systems · RF communications · GNC
+OBJECTIVE    Contribute to aerospace and space-technology engineering teams
+```
+
+**Engineering principle:** A system is not complete just because it works once. It should be measurable, testable, and designed to handle failure.
+
+## `02` — Engineering Navigation
+
 <div align="center">
 
-**[ 🚀 Projects ](#-engineering-projects) ·
-[ ⚙️ Systems ](#-engineering-focus) ·
-[ 📡 Research ](#-research) ·
-[ ✍️ Writing ](#-technical-writing) ·
-[ 🛰️ Space ](#-space--aerospace-work) ·
-[ 🌐 Portfolio ](https://saiprabha-cy.github.io)**
+| Navigation | Explore |
+|:---:|:---|
+| 🛰️ | [Featured Projects](#03--selected-engineering-projects) |
+| ⚙️ | [Technical Toolkit](#04--technical-toolkit) |
+| 📡 | [Research & Publications](#05--research--technical-writing) |
+| 🧪 | [Verification & Engineering Practice](#06--verification--engineering-practice) |
+| 🎓 | [Education & Experience](#07--education--experience) |
+| 📈 | [GitHub Activity](#08--engineering-activity) |
+| 🤝 | [Connect](#09--contact) |
 
 </div>
 
----
+## `03` — Selected Engineering Projects
 
-## `> whoami`
+A selection of work spanning embedded firmware, aerospace telemetry, guidance and control simulation, and space communications.
 
-I am an **Electronics & Communication Engineering graduate** focused on developing practical skills across:
+<details open>
+<summary><b>⚙️ Embedded Firmware & Flight Electronics</b></summary>
 
-- Embedded Systems
-- Firmware Development
-- Avionics & Telemetry
-- Aerospace Electronics
-- Flight Computers
-- Communication Systems
-- Aerospace Simulation & GNC
-- PCB / Hardware Validation
-- RTL / Digital Design
+### Cortex-M Flight Controller Firmware
 
-My approach is to move beyond isolated software projects and understand the complete engineering chain:
+**Focus:** Embedded C · STM32 · Bare-metal firmware · FreeRTOS · Fault handling · Renode
 
-**requirements → architecture → implementation → interface → validation**
+A flight-controller firmware engineering project exploring structured firmware architecture, bootloader and application separation, update handling, driver interfaces, and automated verification.
 
----
+- Repository: [cortex-m-flight-controller-firmware](https://github.com/saiprabha-cy/cortex-m-flight-controller-firmware)
+- Engineering focus: firmware reliability, testability, boot flow, and failure investigation.
 
-## ⚙️ ENGINEERING FOCUS
+### Aerospace Telemetry & Flight Computer Platform
 
-<table>
-<tr>
-<td width="25%" align="center">
+**Focus:** Sensor interfaces · UART · Packet framing · CRC · MATLAB/Simulink
 
-### 🧠 Embedded
+A telemetry-oriented platform connecting sensor data acquisition, structured packet communication, and aerospace-system simulation.
 
-C / C  
-STM32  
-Bare-Metal  
-Drivers  
-UART / SPI / I²C
+- Repository: [aerospace-telemetry-flight-computer-platform](https://github.com/saiprabha-cy/aerospace-telemetry-flight-computer-platform)
+- Engineering focus: packet integrity, telemetry flow, interface design, and end-to-end testing.
 
-</td>
+### CubeSat UHF Beacon Flight Computer Interface
 
-<td width="25%" align="center">
+**Focus:** Embedded interfaces · UHF radio concepts · Packet protocols · CRC-16
 
-### 📡 Avionics
+An interface-focused project exploring communication between a flight-computer side and a radio/beacon side, including structured messages and integrity checks.
 
-Telemetry  
-Flight Computers  
-Packet Protocols  
-FDIR  
-Sensor Interfaces
-
-</td>
-
-<td width="25%" align="center">
-
-### 🚀 Aerospace
-
-GNC  
-Flight Simulation  
-CubeSat Systems  
-Mission Operations  
-OpenRocket
-
-</td>
-
-<td width="25%" align="center">
-
-### 🔧 Hardware
-
-KiCad  
-PCB Design  
-Schematic Design  
-Hardware Validation  
-RTL / FPGA
-
-</td>
-</tr>
-</table>
-
----
-
-# 🚀 ENGINEERING PROJECTS
-
-> A selection of systems I have designed, implemented, simulated, or documented.
-
-### 🛰️ 01 — Integrated Launch Vehicle & Satellite GNC Digital Twin
-
-**Launch-vehicle ascent → insertion → satellite mission simulation**
-
-`MATLAB` `Python` `GNC` `Simulation`
-
-A digital-twin style aerospace simulation environment covering mission initialization, launch/ascent logic and orbital insertion concepts.
-
-**Repository →**  
-[🔗 Launch-Vehicle-Ascent-Insertion-GNC-Digital-Twin](https://github.com/saiprabha-cy/Launch-Vehicle-Ascent-Insertion-GNC-Digital-Twin)
-
----
-
-### 🛰️ 02 — CubeSat OBC / Telemetry Simulator
-
-**Onboard computer architecture → telemetry → fault handling**
-
-`C` `Python` `Telemetry` `OBC` `FDIR`
-
-A software-based CubeSat onboard-computer environment developed to study telemetry generation, packet handling, system states and fault-response concepts before moving toward hardware implementation.
-
-<details>
-<summary><b>▶ Explore the architecture</b></summary>
-
-```text
-                 ┌─────────────────────┐
-                 │     Sensor Inputs   │
-                 └──────────┬──────────┘
-                            ↓
-                 ┌─────────────────────┐
-                 │     Flight Logic    │
-                 └──────────┬──────────┘
-                            ↓
-                 ┌─────────────────────┐
-                 │ Telemetry Formatter │
-                 └──────────┬──────────┘
-                            ↓
-                 ┌─────────────────────┐
-                 │ Packet / Downlink   │
-                 └─────────────────────┘
-                            ↑
-                 ┌─────────────────────┐
-                 │       FDIR          │
-                 └─────────────────────┘
-```
-
-</details>
-
----
-
-### 🤖 03 — Planetary Rover Autonomous Navigation & Mapping
-
-**Autonomous navigation → mapping → planetary robotics**
-
-`Python` `Robotics` `Navigation` `Mapping`
-
-A focused simulation project exploring autonomous rover navigation and mapping concepts for planetary environments.
-
-**Repository →**  
-[🔗 Planetary Rover Navigation & Mapping](https://github.com/saiprabha-cy)
-
----
-
-### 🔧 04 — Aerospace Hardware Validation Platform
-
-**KiCad → schematic architecture → PCB validation**
-
-`KiCad` `STM32` `PCB` `Hardware`
-
-Aerospace-oriented hardware design work focused on hierarchical schematics, MCU interfaces, power/interface planning and validation-oriented PCB design.
-
-<details>
-<summary><b>▶ Hardware design philosophy</b></summary>
-
-```text
-Requirements
-     ↓
-System Architecture
-     ↓
-Hierarchical Schematic
-     ↓
-Component Selection
-     ↓
-PCB Layout
-     ↓
-ERC / DRC
-     ↓
-Design Review
-     ↓
-Hardware Validation
-```
-
-</details>
-
----
-
-### 📡 05 — Intelligent Propagation-Aware Satellite Communication
-
-**Propagation modelling → satellite communication → intelligent prediction**
-
-`Python` `Machine Learning` `Satellite Communication`
-
-Research-oriented work exploring propagation-aware modelling for satellite communication systems.
-
-**Repository →**  
-[🔗 Intelligent Propagation-Aware Satcom](https://github.com/saiprabha-cy/Intelligent-propagation-aware-satcom)
-
----
-
-### 💻 06 — Telemetry Packet Parser — RTL
-
-**Packet framing → FSM → CRC validation**
-
-`Verilog` `RTL` `FSM` `CRC` `Icarus Verilog` `GTKWave`
-
-A digital-design project exploring implementation of a telemetry packet parser as synthesizable-style RTL logic.
-
-<details>
-<summary><b>▶ Packet-processing concept</b></summary>
-
-```text
-        Incoming Bitstream
-                │
-                ▼
-        ┌───────────────┐
-        │ Synchronization│
-        └───────┬───────┘
-                ▼
-        ┌───────────────┐
-        │ Header Detect │
-        └───────┬───────┘
-                ▼
-        ┌───────────────┐
-        │ Payload State │
-        └───────┬───────┘
-                ▼
-        ┌───────────────┐
-        │  CRC Check    │
-        └───────┬───────┘
-                ▼
-          VALID / ERROR
-```
-
-</details>
-
----
-
-# 🧩 ENGINEERING STACK
-
-<details>
-<summary><b>▶ Embedded Systems & Firmware</b></summary>
-
-- Embedded C
-- C fundamentals
-- STM32
-- ARM Cortex-M
-- Bare-metal programming
-- Register-level concepts
-- GPIO
-- Timers
-- UART
-- SPI
-- I²C
-- Interrupts
-- Driver development
-- Debugging
+- Repository: [CubeSat-UHF-Beacon-Flight-Computer-Interface](https://github.com/saiprabha-cy/CubeSat-UHF-Beacon-Flight-Computer-Interface)
 
 </details>
 
 <details>
-<summary><b>▶ Aerospace & Simulation</b></summary>
+<summary><b>🛰️ Spacecraft Simulation, Estimation & Navigation</b></summary>
 
-- MATLAB
-- Simulink
-- Python
-- OpenRocket
-- OpenVSP
-- XFLR5
-- Flight dynamics
-- GNC concepts
-- Telemetry
-- Mission operations
-- CubeSat systems
+### CubeSat ADCS Simulation
+
+**Focus:** Attitude dynamics · Control systems · MATLAB
+
+A simulation project exploring spacecraft attitude determination and control concepts.
+
+- Repository: [CubeSat-ADCS-Sim](https://github.com/saiprabha-cy/CubeSat-ADCS-Sim)
+
+### Kalman Attitude Estimation
+
+**Focus:** State estimation · Sensor fusion · Kalman filtering
+
+A project exploring estimation techniques for spacecraft attitude-related applications.
+
+- Repository: [kalman-attitude-estimation](https://github.com/saiprabha-cy/kalman-attitude-estimation)
+
+### Planetary Rover Navigation
+
+**Focus:** Navigation algorithms · Simulation · Autonomous systems
+
+An exploration of navigation and decision-making concepts for planetary rover applications.
+
+- Repository: [planetary-rover-navigation](https://github.com/saiprabha-cy/planetary-rover-navigation)
+
+### ILVS-GNC Digital Twin
+
+**Focus:** Guidance, navigation and control · Digital twins · Simulation
+
+A simulation-oriented project exploring the relationship between system models, vehicle dynamics, and GNC analysis.
+
+- Repository: [ILVS-GNC-DT](https://github.com/saiprabha-cy/ILVS-GNC-DT)
 
 </details>
 
 <details>
-<summary><b>▶ Hardware & Digital Design</b></summary>
+<summary><b>📡 Communication Systems & Research</b></summary>
 
-- KiCad
-- Schematic capture
-- PCB design
-- ERC / DRC
-- Hardware interfaces
-- STM32 MCU architecture
-- RTL fundamentals
-- Verilog
-- FSM design
-- CRC logic
-- Icarus Verilog
-- GTKWave
-- Yosys
+### Intelligent Radio Propagation Modeling
 
-</details>
+**Focus:** Radio propagation · S-band communications · Machine learning
 
-<details>
-<summary><b>▶ Communication & Research</b></summary>
+Research on machine-learning-based excess path-loss modeling for S-band terrestrial radio propagation.
 
-- Digital communications
-- Signal processing
-- Satellite communications
-- RF propagation modelling
-- Machine learning
-- Python scientific computing
-- MATLAB numerical modelling
-
-</details>
-
----
-
-# 📡 RESEARCH
-
-### Machine Learning-Based Excess Path Loss Modeling for S-Band Terrestrial Radio Propagation
-
-Research work exploring machine-learning-based modelling of excess path loss for S-band terrestrial radio propagation.
-
-**TechRxiv:**  
-[🔗 DOI: 10.36227/techrxiv.176834562.26769030/v1](https://doi.org/10.36227/techrxiv.176834562.26769030/v1)
-
----
+- Read the research: [TechRxiv publication](https://doi.org/10.36227/techrxiv.176834562.26769030/v1)
 
 ### Digital Twin Telescope
 
-A software-oriented astronomy and digital-twin project involving astronomical data processing, telescope modelling and observation workflows.
+**Focus:** Digital-twin concepts · Astronomy · Software and system modeling
 
-**Related work:**  
-[🌐 Portfolio](https://saiprabha-cy.github.io)
+A digital-twin project exploring the representation of an observing system through a software-based model.
 
----
+- Research record: [Zenodo publication](https://doi.org/10.5281/zenodo.18017921)
 
-### DTT Research Output
+</details>
 
-[🔗 Zenodo — DOI: 10.5281/zenodo.18017921](https://doi.org/10.5281/zenodo.18017921)
+> **Project status matters:** Some repositories represent ongoing development or simulation-based exploration. Please refer to each repository's README for its current implementation, evidence, and limitations.
 
----
-
-# 🛰️ SPACE & AEROSPACE WORK
-
-My aerospace learning has included work across:
-
-```text
-                    SPACE SYSTEMS
-                         │
-          ┌──────────────┼──────────────┐
-          ↓              ↓              ↓
-      Avionics        Simulation      Mission
-          │              │            Operations
-          ↓              ↓              ↓
-     Telemetry          GNC         Communications
-          │              │              │
-          └──────────────┼──────────────┘
-                         ↓
-                 Systems Engineering
-```
-
-### Experience & Training
-
-**Electronics Engineering Intern — MacroEdTech**
-
-Remote engineering work involving educational electronics, aerospace documentation and CubeSat-oriented technical work.
-
-**BSERC Def-Space Winter Internship**
-
-Projects included:
-
-- VTOL / drone air-taxi concept
-- Aircraft design studies
-- MATLAB-based analysis
-- OpenVSP / XFLR5 exploration
-- Water-rocket modelling
-- OpenRocket
-
----
-
-# 🔬 CITIZEN SCIENCE
-
-Space science is also part of my practical learning outside conventional engineering projects.
-
-### Astronomy / Citizen Science
-
-- Asteroid classification
-- Variable-star observations
-- Galaxy classification
-- Space-science data analysis
-- Preliminary transient/detection work
-
-Projects and participation include platforms such as NASA / ESA / NAOJ citizen-science initiatives and IASC-related astronomy work.
-
----
-
-# ✍️ TECHNICAL WRITING
-
-I document engineering concepts while learning them.
-
-### Featured
-
-**What Actually Happens When You Call `HAL_GPIO_WritePin()`?**
-
-A low-level exploration of what happens between an application-level GPIO call and the underlying MCU hardware.
-
-**More technical articles →**  
-[📝 Medium](https://medium.com/)
-
----
-
-# 📊 GITHUB ACTIVITY
+## `04` — Technical Toolkit
 
 <div align="center">
 
-<a href="https://github.com/saiprabha-cy">
+**Embedded & Firmware**
 
-<img src="https://github-readme-stats.vercel.app/api?username=saiprabha-cy&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true&count_private=false" height="165" alt="GitHub statistics">
+<br/>
 
-</a>
+![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![STM32](https://img.shields.io/badge/STM32-03234B?style=flat-square&logo=stmicroelectronics&logoColor=white)
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-6A9B32?style=flat-square)
+![ESP32](https://img.shields.io/badge/ESP32-E7352C?style=flat-square&logo=espressif&logoColor=white)
 
-<a href="https://github.com/saiprabha-cy">
+**Electronics & PCB Design**
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=saiprabha-cy&layout=compact&hide_border=true&langs_count=8" height="165" alt="Top languages">
+<br/>
 
-</a>
+![KiCad](https://img.shields.io/badge/KiCad-314CB0?style=flat-square&logo=kicad&logoColor=white)
+![LTspice](https://img.shields.io/badge/LTspice-8B0000?style=flat-square)
+![UART](https://img.shields.io/badge/UART-243447?style=flat-square)
+![I2C](https://img.shields.io/badge/I²C-243447?style=flat-square)
+![SPI](https://img.shields.io/badge/SPI-243447?style=flat-square)
+
+**Aerospace, Modeling & Communications**
+
+<br/>
+
+![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+![Simulink](https://img.shields.io/badge/Simulink-0076A8?style=flat-square&logo=mathworks&logoColor=white)
+![GNU Radio](https://img.shields.io/badge/GNU_Radio-FF6F00?style=flat-square)
+![OpenRocket](https://img.shields.io/badge/OpenRocket-334155?style=flat-square)
+![MAVLink](https://img.shields.io/badge/MAVLink-1E3A5F?style=flat-square)
+
+**Development & Verification**
+
+<br/>
+
+![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 
 </div>
 
-<br>
+*The badges indicate areas of technical work and learning, not expert-level proficiency in every tool.*
+
+## `05` — Research & Technical Writing
+
+I also explore how engineering models, data analysis, and technical communication can support aerospace and scientific applications.
+
+- **Radio propagation research:** [Machine Learning-Based Excess Path Loss Modeling for S-Band Terrestrial Radio Propagation](https://doi.org/10.36227/techrxiv.176834562.26769030/v1)
+- **Digital twin project:** [Digital Twin Telescope — Zenodo record](https://doi.org/10.5281/zenodo.18017921)
+- **Engineering portfolio:** [saiprabha-cy.github.io](https://saiprabha-cy.github.io/)
+
+## `06` — Verification & Engineering Practice
+
+My engineering workflow emphasizes more than producing a working demonstration.
+
+| Practice | What I aim to demonstrate |
+|:---|:---|
+| Interface design | Clear data formats, peripheral interfaces, and protocol boundaries |
+| Firmware testing | Repeatable tests for valid inputs, invalid inputs, and edge cases |
+| Communication integrity | Packet framing, checksums/CRCs, sequence tracking, and timeout handling |
+| Simulation | Model assumptions, measurable outputs, and reproducible scenarios |
+| Fault handling | Defined behavior for errors, missing data, and communication loss |
+| Documentation | Architecture, setup instructions, test evidence, limitations, and next steps |
+
+## `07` — Education & Experience
+
+**B.E. — Electronics and Communication Engineering**  
+Sri Chandrasekharendra Saraswathi Viswa Mahavidyalaya (SCSVMV), Kanchipuram  
+2021–2025 · **CGPA: 9.23/10**
+
+**Engineering experience**
+
+- **MacroEdTech** — Engineering internship and project work, March–September 2026.
+- **BSERC** — VTOL and aerospace-related project internship, December 2025–January 2026.
+
+My experience and project work have included embedded systems, CubeSat-related engineering, MATLAB-based analysis, and aerospace simulation.
+
+## `08` — Engineering Activity
 
 <div align="center">
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=saiprabha-cy&hide_border=true" alt="GitHub contribution streak">
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=saiprabha-cy&show_icons=true&hide_border=true&bg_color=0D1117&title_color=00C2D1&icon_color=00C2D1&text_color=C9D1D9&rank_icon=github" alt="GitHub statistics"/>
+
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=saiprabha-cy&layout=compact&hide_border=true&bg_color=0D1117&title_color=00C2D1&text_color=C9D1D9" alt="Most-used languages on GitHub"/>
+
+<img src="https://streak-stats.demolab.com?user=saiprabha-cy&hide_border=true&background=0D1117&ring=00C2D1&fire=FFB86B&currStreakLabel=00C2D1&sideLabels=C9D1D9&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=8B949E" alt="GitHub contribution streak"/>
 
 </div>
 
----
+<sub>These cards are generated by third-party services and may occasionally be unavailable. Language statistics reflect GitHub repository contents and are not a complete measure of engineering ability.</sub>
 
-# 🧭 CURRENT ENGINEERING DIRECTION
+## `09` — Contact
 
-```text
-                 EMBEDDED SYSTEMS
-                        │
-             ┌──────────┴──────────┐
-             ↓                     ↓
-          Firmware              Hardware
-             │                     │
-             ↓                     ↓
-          STM32                 KiCad
-             │                     │
-             └──────────┬──────────┘
-                        ↓
-                    AVIONICS
-                        │
-             ┌──────────┼──────────┐
-             ↓          ↓          ↓
-         Telemetry     OBC       Interfaces
-             │          │          │
-             └──────────┼──────────┘
-                        ↓
-                    AEROSPACE
-                        │
-             ┌──────────┼──────────┐
-             ↓          ↓          ↓
-            GNC     Simulation   Mission Ops
-```
-
----
-
-# 🎯 WHAT I'M BUILDING TOWARD
-
-**Embedded Systems → Firmware → Avionics → Aerospace Systems**
-
-The goal is to develop the ability to work across the boundary between:
-
-> **software + electronics + communication + aerospace systems**
-
-rather than treating these as isolated disciplines.
-
----
-
-# 🌐 EXPLORE MORE
+I'm interested in connecting with people working on **aerospace electronics, embedded firmware, spacecraft systems, RF communications, and engineering verification**.
 
 <div align="center">
 
-### Full Engineering Portfolio
+[![GitHub](https://img.shields.io/badge/GitHub-Explore_my_work-181717?style=for-the-badge&logo=github)](https://github.com/saiprabha-cy)
+[![Portfolio](https://img.shields.io/badge/Portfolio-View_projects-087E8B?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saiprabha-cy.github.io/)
 
-<a href="https://saiprabha-cy.github.io">
-<img src="https://img.shields.io/badge/OPEN_PORTFOLIO-111827?style=for-the-badge&logo=googlechrome&logoColor=white">
-</a>
+<br/>
 
-### GitHub Projects
+*Design carefully. Test rigorously. Build for the mission.*
 
-<a href="https://github.com/saiprabha-cy?tab=repositories">
-<img src="https://img.shields.io/badge/EXPLORE_REPOSITORIES-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-### LinkedIn
-
-<a href="https://www.linkedin.com/in/saiprabha-c-y">
-<img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-**Embedded Systems | Firmware | Avionics | Aerospace**
-
-*Engineering through understanding, implementation, and validation.*
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C2D1,45:087E8B,100:07111F&height=100&section=footer" width="100%" alt="Decorative space-themed footer"/>
 
 </div>
